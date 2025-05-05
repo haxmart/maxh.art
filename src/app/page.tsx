@@ -8,13 +8,13 @@ const Button = ({
   href: string;
 }) => {
   return (
-    <div className="group/button relative z-10 text-xs bg-linear-to-b rounded-2xl p-1 inline-flex from-neutral-200 to-white pointer-events-none">
+    <div className="group/button relative z-10 text-sm bg-linear-to-b rounded-2xl p-1 inline-flex from-neutral-200 to-white pointer-events-none">
       <Link
         href={href}
-        className="bg-linear-to-b p-1 to-neutral-200 from-white rounded-xl shadow-[0_3px_3px_#00000040,0_1px_3px_#0000001f] cursor-pointer pointer-events-auto"
+        className="bg-linear-to-b p-1 to-neutral-200 from-white rounded-xl shadow-[0_4px_4px_rgba(0,0,0,0.1),0_1px_4px_rgba(0,0,0,0.4)] cursor-pointer pointer-events-auto"
       >
         <div className="bg-linear-to-t rounded-lg from-white to-neutral-100 transition-colors group-hover/button:to-neutral-200">
-          <div className="py-2 px-4 font-sans tracking-tight font-semibold">
+          <div className="py-2 px-4 tracking-tight font-semibold">
             {children}
           </div>
         </div>
