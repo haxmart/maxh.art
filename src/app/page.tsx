@@ -14,7 +14,7 @@ const Button = ({
         className="bg-linear-to-b p-1 to-neutral-200 from-white rounded-xl shadow-[0_3px_3px_#00000040,0_1px_3px_#0000001f] cursor-pointer pointer-events-auto"
       >
         <div className="bg-linear-to-t rounded-lg from-white to-neutral-100 transition-colors group-hover/button:to-neutral-200">
-          <div className="py-2 px-4 tracking-tight font-semibold">
+          <div className="py-2 px-4 font-sans tracking-tight font-semibold">
             {children}
           </div>
         </div>
